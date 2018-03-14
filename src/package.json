@@ -1,0 +1,16 @@
+{
+  "name": "redux-form-asynchronous-validation",
+  "version": "1.0.0",
+  "description": "Asynchronous Blur Validation Example using Redux Form",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/pk79zokj6m",
+  "main": "index.js",
+  "dependencies": {
+    "redux-form-website-template": "0.0.41",
+    "redux-form": "7.0.4",
+    "redux": "3.7.2",
+    "react-redux": "5.0.6",
+    "react-dom": "15.6.1",
+    "react": "15.6.1"
+  }
+}

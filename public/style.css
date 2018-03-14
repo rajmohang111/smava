@@ -1,0 +1,51 @@
+body {
+    background: #f6f6f6;
+}
+#root {
+    width: 600px;
+    margin: 1.5em auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px #ccc;
+}
+#root h2 {
+    text-align: center;
+}
+#root form > div {
+    display: block;
+}
+#root form > div > label {
+    padding: 6px 0;
+    text-align: left;
+    display: block;
+}
+.err-msg {
+    padding: 0.5em 0 0;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+}
+.err-msg:before {
+    display: none;
+}
+.form {
+    padding: 0 2em;
+}
+.btn-wrap {
+    text-align: right;
+}
+form > div button[type="submit"].btn {
+    margin-right: 0;
+    background: #f0a31a;
+    color: #fff;
+    border: 1px solid #c37f07;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 25px
+}
+form > div button[type="submit"].btn:before {
+    display: none;
+}
+
+
+
